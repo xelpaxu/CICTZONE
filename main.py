@@ -494,7 +494,7 @@ while running:
                 if playagain_button.collidepoint(event.pos):
                     reset_game() 
                     game_state = GAME_RUNNING  
-                elif quit_button_rect.collidepoint(event.pos):
+                elif start_button_rect.collidepoint(event.pos):
                     running = False 
 
 pygame.quit()
